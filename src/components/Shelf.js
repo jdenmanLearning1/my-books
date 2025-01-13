@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import Book from "./Book";
-import PropTypes from "prop-types";
+import { useEffect, useState } from 'react';
+import Book from './Book';
+import PropTypes from 'prop-types';
 
 const Shelf = ({ title, name, books, onShelfChangeRequest }) => {
   const [shelfBooks, setShelfBooks] = useState([]);
